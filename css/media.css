@@ -1,0 +1,32 @@
+/*tablet*/
+@media only screen and (max-width: 768px) {
+
+}
+
+/*mobile*/
+@media only screen and (max-width: 576px) {
+    .best-food-box, .chefs-box, .other-services-box, .footer-box, .reservation-box, .contact-box {
+        display: inherit;
+    }
+
+    .footer-box .footer-box-item {
+        width: 100%;
+    }
+
+    .our-menu-box-item {
+        flex-direction: column;
+    }
+
+    .our-menu-box-item-price {
+        text-align: left;
+        margin-left: 0;
+    }
+
+    .form-button {
+        padding: 10px 10px;
+    }
+
+    .reservation > .container, .contact > .container {
+        max-width: 90%;
+    }
+}
